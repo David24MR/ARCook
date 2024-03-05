@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14256,7 +14256,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6464761
+      value: -0.6660669
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
         type: 3}
@@ -14266,7 +14266,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7629342
+      value: -0.74589205
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
         type: 3}
@@ -14281,7 +14281,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 99.447
+      value: -263.528
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
         type: 3}
@@ -14343,6 +14343,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1282859199}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ead4e52b9268bb4aa730ffcc825e3f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1282859200}
   m_SourcePrefab: {fileID: 100100000, guid: 1ead4e52b9268bb4aa730ffcc825e3f2, type: 3}
 --- !u!1001 &423518741
 PrefabInstance:
@@ -17165,6 +17169,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 894354386}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 937d5d7b53027f346a2100d5ecd29223,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 894354387}
   m_SourcePrefab: {fileID: 100100000, guid: 937d5d7b53027f346a2100d5ecd29223, type: 3}
 --- !u!4 &557351326 stripped
 Transform:
@@ -32274,6 +32282,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &894354387
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894354379}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18186ab260d217e458c0b70ed1580d35, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &898243124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7794734393844803265, guid: 3fb505a7f547bb44aa5edf1bbec53138,
@@ -43497,6 +43526,27 @@ MonoBehaviour:
       reference: MixedReality.Toolkit.SpatialManipulation.RotateLogic, MixedReality.Toolkit.SpatialManipulation
     scaleLogicType:
       reference: MixedReality.Toolkit.SpatialManipulation.ScaleLogic, MixedReality.Toolkit.SpatialManipulation
+--- !u!95 &1282859200
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282859188}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4471f4c628d47174a8e66df7ec4a9085, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1285627417
 PrefabInstance:
   m_ObjectHideFlags: 0
